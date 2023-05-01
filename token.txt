@@ -1,0 +1,1 @@
+paste your token here as described at https://learn.microsoft.com/en-us/stream/streamnew/migration-details#steps-to-run-the-script
