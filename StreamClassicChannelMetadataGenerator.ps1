@@ -10,7 +10,7 @@
 See https://learn.microsoft.com/en-us/stream/streamnew/migration-details#steps-to-run-the-script how to get the token
 
 Example:
-.\StreamClassicChannelMetadataGenerator.ps1 -AadTenantId "af73baa8-f594-4eb2-a39d-93e96cad61fc" -InputFile "C:\AzureDevOps\CBS New Repos\StreamOnSP\SolutionAssets\PowerShell\token.txt"
+.\StreamClassicChannelMetadataGenerator.ps1 -AadTenantId "af73baa8-f594-4eb2-a39d-yourtenantid" -InputFile "C:\AzureDevOps\CBS New Repos\StreamOnSP\SolutionAssets\PowerShell\token.txt"
 
 #>
 
@@ -18,7 +18,7 @@ Example:
 [CmdletBinding()]
 Param(
   [Parameter(Mandatory = $true)]
-  [string]$AadTenantId = "af73baa8-f594-4eb2-a39d-93e96cad61fc",
+  [string]$AadTenantId = "af73baa8-f594-4eb2-a39d-yourtenantid",
 
   [Parameter(Mandatory = $true)]
   [string]$InputFile = "C:\AzureDevOps\CBS New Repos\StreamOnSP\SolutionAssets\PowerShell\token.txt"
